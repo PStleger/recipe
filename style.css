@@ -18,44 +18,41 @@ body{
 
 /* This is for the main content */
 main{
-	padding: 1rem;
-	background: #64a55a;
+	background: #FDC13E;
+	padding: 1.5rem;
 }
 
 main h2{
 	padding: 2rem;
-	color: #fff;
+	color: rgba(20, 20, 20, 0.8);
+	font-weight: 700;
 }
 
-.col-parent{
-	border: 1px solid #4d4c4c;
+.parent-col{
 	padding: 0.6rem;
-	background-color: rgba(61, 101, 52, 0.2);
-	margin: 0.3rem;
-	
 }
 
-.col-parent h3{
-	color: #fff;
-}
-
-.row-child .col-img{
-	padding-top: 0.7rem;
-	
-}
-
-
-.col-child .col-logo{
-	width: 50%;
+.parent-col .logo-btn{
+	width: 20%;
 	border-radius: 1.7rem;
-	/* max-width: 100%; */
 }
 
-.col .col-img{
-	/* width: 100%; */
-	width: 60%;
+.parent-col .col-img{
+	width: 100%;
 }
 
+.card{
+	transition: box-shadow .3s;
+}
+
+.card:hover{
+	box-shadow: 8px 8px 13px -1px #232222;
+}
+
+.card-body h4{
+	margin-bottom: 0.7rem;
+	color: rgba(20, 20, 20, 0.8);
+}
 
 
 /* This is for the footer */
