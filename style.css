@@ -23,3 +23,46 @@ body{
 
 
 /* This is for the footer */
+footer{
+	display: flex;
+color: #FDC13E;
+background-color: #FFE6AB;
+max-height: 40vh;
+padding-top: 90px;
+padding-bottom: 50px;
+z-index: -1;
+overflow-y: scroll;
+/* word-wrap:break-word */
+}
+
+.signup{
+	/* border: solid green; */
+	margin-bottom: 10px;
+}
+.click:hover{
+color: #399D2A;
+	}
+
+.followus{
+	/* border: solid green; */
+	padding-left:10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+}
+.contactus{
+	/* border: solid green; */
+	margin-bottom: 10px;
+}
+
+.ig{
+	width: 20px;
+}
+.fb{
+	width: 20px;
+}
+.pin{
+	width: 20px;
+}
+.twitter{
+	width: 20px;
+}
