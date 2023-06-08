@@ -10,12 +10,42 @@ body{
 
 
 /* This is for the header */
+.navbar-brand{
+	background-color: #FFE6AB;
+}
+
+.head{
+	background-color: #FFE6AB ;
+}
+.navbar{
+	position: relative;
+	top: 20px;
 
 
+}
 
+.logo{
+	background-color: #FFE6AB ;
+	position:relative; 
+	top: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	border-radius: 50%;
+	
+}
 
-
-
+.nav-item a {
+	color: #FDC13E ;
+	background-color: transparent;
+	text-decoration: none;
+  }
+ 
+  .nav-item a:hover {
+	color : #399D2A;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+ 
 /* This is for the main content */
 
 
