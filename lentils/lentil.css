@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
 *{
 	box-sizing: border-box;
 }
@@ -5,8 +8,46 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: 'Space Grotesk', sans-serif !important;
+	background-color: #f6edd8 !important;
 }
 
+/* This is for the header */
+.navbar-brand{
+	background-color: #FFE6AB;
+}
+
+.head{
+	background-color: #FFE6AB ;
+}
+.navbar{
+	position: relative;
+	top: 20px;
+
+
+}
+
+.logo{
+	background-color: #FFE6AB ;
+	position:relative; 
+	top: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	border-radius: 50%;
+	
+}
+
+.nav-item a {
+	color: #FDC13E ;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.nav-item a:hover {
+	color : #399D2A;
+	background-color: transparent;
+	text-decoration: underline;
+}
 
 .parent-row{
 	background-color:rgba(253, 193, 62, 0.8);
@@ -53,4 +94,51 @@ h2, h3, h4{
 
 .button:hover{
 	background-color:#cb6262 !important;
+}
+
+
+
+footer{
+	display: flex;
+color: #FDC13E;
+background-color: #FFE6AB;
+/* max-height: 40vh; */
+padding-top: 90px;
+padding-bottom: 50px;
+/* z-index: -1;  */
+/* overflow-y: scroll; */
+/* word-wrap:break-word */
+}
+
+.signup{
+	/* border: solid green; */
+	margin-bottom: 10px;
+}
+.click:hover{
+color: #399D2A;
+	}
+
+.followus{
+	/* border: solid green; */
+	padding-left:10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+}
+.contactus{
+	/* border: solid green; */
+	margin-bottom: 10px;
+}
+
+
+.ig{
+	width: 20px;
+}
+.fb{
+	width: 20px;
+}
+.pin{
+	width: 20px;
+}
+.twitter{
+	width: 20px;
 }
