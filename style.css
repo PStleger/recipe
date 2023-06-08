@@ -47,9 +47,42 @@ body{
   }
  
 /* This is for the main content */
+main{
+	background: #FDC13E;
+	padding: 1.5rem;
+}
 
+main h2{
+	padding: 2rem;
+	color: rgba(20, 20, 20, 0.8);
+	font-weight: 700;
+}
 
+.parent-col{
+	padding: 0.6rem;
+}
 
+.parent-col .logo-btn{
+	width: 20%;
+	border-radius: 1.7rem;
+}
+
+.parent-col .col-img{
+	width: 100%;
+}
+
+.card{
+	transition: box-shadow .3s;
+}
+
+.card:hover{
+	box-shadow: 8px 8px 13px -1px #232222;
+}
+
+.card-body h4{
+	margin-bottom: 0.7rem;
+	color: rgba(20, 20, 20, 0.8);
+}
 
 
 /* This is for the footer */
