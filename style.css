@@ -11,31 +11,6 @@ body{
 
 /* This is for the header */
 
-.toplogo {
-    margin-top: 5px;
-}
-
-.toplogo img {
-	position:absolute;
-    top:10px; 
-    left: 5px;px;
-    width: 150px;
-    height: 100px;
-    overflow:hidden;
-	border-radius: 50%;
-}
-.nav  {
-
-	border-bottom: 1px solid #333333;
-	position: flex;
-	padding-top: 75px;
-}
-
-header.nav ul.nav-link li {
-	color: #000000;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 20px;
-  }
 
 
 
