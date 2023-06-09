@@ -198,3 +198,7 @@ h2, h3, h4{
 .btn:hover{
 	background-color:#399D2A !important;
 }
+
+.email:hover{
+	color:#399D2A  !important;
+}
