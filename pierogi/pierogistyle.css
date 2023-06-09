@@ -10,7 +10,7 @@ body{
 
 
 .parent-row{
-	background-color:#FFF3D9;
+	background-color:#FFF3D9 !important;
 	border: 1px solid rgb(251, 195, 123);
 	padding: 2rem;
 	margin: 2rem;
